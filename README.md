@@ -5,19 +5,19 @@
 
 
    <br />
-    <strong>Meng Li</strong></a>
+    <strong>赵显宇</strong></a>
     ·
-    <strong>Qi Zhao</strong></a>
+    <strong>姜会林</strong></a>
     ·
-    <a href="https://cv-shuchanglyu.github.io/EnHome.html"><strong>Shuchang Lyu</strong></a>
+    <strong>王合龙</strong></a>
     ·
-    <strong>Jun Jiang</strong></a>    
+    <strong>李萌</strong></a>    
     ·
-    <strong>Longhao Zou</strong></a>
+    <strong>赵琦</strong></a>
     ·
-    <a href="https://sites.google.com/view/guangliangcheng"><strong>Guangliang Cheng</strong></a>
+    <strong>刘智</strong></a>
     ·
-    <strong>Chenguang Yang</strong></a>
+    <strong>赵克军</strong></a>
     <br />
 <p align="center">
 
@@ -28,15 +28,15 @@
 
 
 
-## Highlight!!!!
-This repo is the implementation of "LM2CNet: Enhancing Monocular 3D Visual Grounding with Language Guided Multi-Modality Coupling Network". We refer to [Mono3DVG](https://github.com/ZhanYang-nwpu/Mono3DVG), [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR), [nuScenes](https://github.com/nutonomy/nuscenes-devkit), [DriveLM](https://github.com/OpenDriveLab/DriveLM). Many thanks to these excellent repos.
+## 重点!!!!
+本repo是论文《遥感图像指示分割的基准数据集与基线模型研究》的实现代码及相关数据集介绍。我们参考了[RSMIN](https://github.com/Lsan2401/RMSIN)，非常感谢这篇优秀的工作。
 
-## TODO
-- [x] Release test_dataset
-- [x] Release checkpoints
-- [ ] Release all_dataset
+## 将要做的
+- [x] 公布部分数据集
+- [x] 公布检查点用于推理
+- [ ] 公布所有数据集及训练代码
 
-## Installation
+## 安装
 * Ubantu==18.04
 * Python==3.10 
 * Torch==1.12.1, Torchvision==0.12.0
