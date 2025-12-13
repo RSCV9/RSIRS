@@ -57,5 +57,8 @@ cd /RSIRS
 pip install -r requirments.txt
 ```
 ## 推理
-
+* 从您下载的部分数据集中选取一张图片，将其路径以形参的方式输入给inference.py
+```
+python inference.py --img_path xxx.img
+```
 
