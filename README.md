@@ -57,7 +57,10 @@ cd /RSIRS
 pip install -r requirments.txt
 ```
 ## 推理
-* 从您下载的部分数据集中选取一张图片，将其路径以形参的方式输入给inference.py
+* 从您下载的部分数据集中选取一张图片，获得其绝对路径例如/home/test/1.png
+* 查看图片，选择您需要分割的目标，根据目标在图像中的位置或其本身的颜色信息指定输入文本。例如对一辆红色的车可如下描述：find a red car on the road
+* 打开主目录下的args文件，将图像路径填入--infer_img_path中，将语言填入--infer_language中，并在--resume中填入您下载的检查点路径，在--infer_img_savepath中输入您期望保存的图片路径，请使用.png后缀
+* 按如下代码运行得到推理结果
 ```
 python inference.py --img_path xxx.img
 ```
