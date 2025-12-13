@@ -70,5 +70,8 @@ pip install -r requirments.txt
 ```
 python inference.py
 ```
+## 泛化性测试
+您同样可以使用RefSegRS和RRSIS-D数据集中的图片对我们的模型进行泛化性推理测试，以验证我们模型的在不同数据集之间的泛化适应能力。
+
 ## 可能的问题
 * 受限于Huggingface在中国大陆的联网服务，在使用bert时您可能会遇到问题。 本代码已对bert进行了本地部署优化，如您遇到问题，请尝试将下载的bert路径填入相关的代码中。 若还有其他问题，请在本repo中提问，我们将协助您解决。
