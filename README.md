@@ -64,4 +64,5 @@ pip install -r requirments.txt
 ```
 python inference.py --img_path xxx.img
 ```
-
+## 可能的问题
+* 如果您不熟悉该领域，您可能在配置bert时遇到错误，需要手动设置本地bert路径解决该问题。 如您遇到问题，请在本repo中提问，我们将协助您解决。
