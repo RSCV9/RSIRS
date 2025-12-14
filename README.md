@@ -62,6 +62,12 @@ pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f 
 cd /RSIRS
 pip install -r requirments.txt
 ```
+
+## 数据集介绍
+* 在您下载的sample.json中存储了语言标注及图像和mask索引，您可以通过python将其导入并查看其数据结构。
+* 在您下载的image_sample中存储了图像，其分辨率为4K。
+* 在您下载的mask_sample中存储了mask，其为json标注中每一句话在图像上对应的ground truth。
+
 ## 推理
 * 从您下载的部分数据集中选取一张图片，获得其绝对路径例如/home/test/1.png
 * 查看图片，选择您需要分割的目标，根据目标在图像中的位置或其本身的颜色信息指定输入文本。例如对一辆红色的车可如下描述：find a red car on the road
@@ -71,7 +77,7 @@ pip install -r requirments.txt
 python inference.py
 ```
 ## 泛化性测试
-您同样可以使用RefSegRS和RRSIS-D数据集中的图片对我们的模型进行泛化性推理测试，以验证我们模型的在不同数据集之间的泛化适应能力。
+您同样可以使用RefSegRS和RRSIS-D数据集中的图片对我们的模型进行泛化性推理测试，以验证我们模型在不同数据集之间的泛化适应能力。
 
 ## 可能的问题
 * 受限于Huggingface在中国大陆的联网服务，在使用bert时您可能会遇到问题。 本代码已对bert进行了本地部署优化，如您遇到问题，请尝试将下载的bert路径填入相关的代码中。 若还有其他问题，请在本repo中提问，我们将协助您解决。
