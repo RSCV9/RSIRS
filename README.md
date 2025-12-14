@@ -45,8 +45,8 @@
 * python==3.7
 * Torch==1.10.0, Torchvision==0.11.0
 * CUDA==11.1
-* 检查点==[RSIRS](https://drive.google.com/file/d/1auMd9sOpYcAaIelJVKPOKvBYKic7yy4w/view?usp=drive_link)
-* 部分数据集==[PART_DATASET](https://drive.google.com/file/d/1a-U9jg_xd2BDMQk8Fk8hJqYBOYS9iv01/view?usp=drive_link)
+* 检查点==[RSIRS](https://pan.baidu.com/s/1ArPb8msU9dzvlaQroJmT0A?pwd=b9yc)
+* 部分数据集==[PART_DATASET](https://pan.baidu.com/s/1n0xoM-KAnQFeYoUN2-b1CQ?pwd=dcy5)
 * Bert（语言预训练模型）==[Bert](https://drive.google.com/file/d/1ee-XVDnqTNj3tBqgc1S2WLFEMY2dv2iU/view?usp=drive_link)
 
 
